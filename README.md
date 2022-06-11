@@ -7,6 +7,10 @@ Basic Expo Go app that connects to Firebase GraphQL endpoint.
 
 ```sh
 npm install
+npm install -g firebase-tools
 npm run build
-firebase:start
+firebase login
+firebase serve
 ```
+
+https://firebase.google.com/docs/cli
