@@ -10,7 +10,8 @@ npm install
 npm install -g firebase-tools
 npm run build
 firebase login
-firebase serve
+firebase serve (Apollo only)
+firebase emulators:start
 ```
 
 https://firebase.google.com/docs/cli
