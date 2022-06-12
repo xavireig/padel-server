@@ -6,12 +6,13 @@ Basic Expo Go app that connects to Firebase GraphQL endpoint.
 
 
 ```sh
-npm install
-npm install -g firebase-tools
-npm run build
+yarn install
+yarn install -g firebase-tools
+yarn run build
 firebase login
 firebase serve (Apollo only)
 firebase emulators:start
+yarn generate-graphql (for the schema)
 ```
 
 https://firebase.google.com/docs/cli
