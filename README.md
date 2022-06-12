@@ -12,7 +12,9 @@ yarn run build
 firebase login
 firebase serve (Apollo only)
 firebase emulators:start
-yarn generate-graphql (for the schema)
+yarn generate-graphql (for the schema that we copy to client)
 ```
 
 https://firebase.google.com/docs/cli
+
+Remote URI: https://us-central1-paddle-dcde1.cloudfunctions.net/graphql
